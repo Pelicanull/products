@@ -3,11 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 import SectionName from './sectionName'
 import Image from 'next/image'
-import f1 from '../Image/secion-shape-1.png'
-import f2 from '../Image/pelcanul/Sham Food_003.png'
-import f3 from '../Image/pelcanul/Sham Food_004.png'
-import f4 from '../Image/sham_food/Sham Food_009.png'
-import f5 from '../Image/sham_food/Sham Food_002.png'
+// import f1 from '../Image/secion-shape-1.png'
+// import f2 from '../Image/pelcanul/Sham Food_003.png'
+// import f3 from '../Image/pelcanul/Sham Food_004.png'
+// import f4 from '../Image/sham_food/Sham Food_009.png'
+// import f5 from '../Image/sham_food/Sham Food_002.png'
 import { motion } from 'framer-motion'
 const Products = () => {
 
@@ -36,9 +36,8 @@ const Products = () => {
                 className='product '>
                   <div className='product_image'>
                   <Image 
-                    src={f2}
+                    src=""
                     alt=''
-                   
                   ></Image>
                   </div>
                   <div className='product_text'>
@@ -54,7 +53,7 @@ const Products = () => {
                 className='product '>
                   <div className='product_image'>
                     <Image 
-                      src={f3}
+                      src=""
                       alt=''
                     ></Image>
                   </div>
@@ -75,7 +74,7 @@ const Products = () => {
                 className='product '>
                   <div className='product_image'>
                     <Image 
-                      src={f4}
+                      src=""
                       alt=''
                       className='w-full'
                     ></Image>
@@ -93,7 +92,7 @@ const Products = () => {
                 className='product '>
                   <div className='product_image'>
                     <Image 
-                      src={f5}
+                      src=""
                       alt=''
                       className='w-full'
                     ></Image>
