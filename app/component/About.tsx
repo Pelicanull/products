@@ -14,10 +14,18 @@ const About = () => {
        transition={{ duration: 0.5, ease:'easeInOut' }}
        
      className='aboutUs' id='about'>
-      <div className='sectionName'>
+      <motion.div 
+      initial={{translateX:-300,opacity:0.5}}
+      whileInView={{ opacity:1,translateX:0 }}
+      transition={{ duration: 0.5, ease:'easeInOut' }}
+      className='sectionName'>
             <h1 className='sectionName_h1'>Despre noi</h1>
-      </div>
-      <div className='about grid grid-cols-8 '>
+      </motion.div>
+      <motion.div 
+      initial={{translateX:-300,opacity:0.5}}
+      whileInView={{ opacity:1,translateX:0 }}
+      transition={{ duration: 0.5, ease:'easeInOut' }}
+      className='about grid grid-cols-8 '>
           <div className='about_text  col-span-2'>
                 bun venit in compania noastra
           </div>
@@ -26,7 +34,7 @@ const About = () => {
 
             </Image>
           </div>
-      </div>
+      </motion.div>
     </motion.div>
 
   )

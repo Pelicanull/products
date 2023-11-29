@@ -20,12 +20,14 @@ const Footer = () => {
   return (
     <div
     className='footer overflow-hidden'>
-            <motion.div 
-            initial={{opacity:0}}
-            whileInView={{opacity:1}}
-            transition={{ duration: 0.3, ease:'easeInOut' }}
+            <div 
+           
             className='footer_container  grid grid-cols-12 '>
-            <div className=' footer_1 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12  z-10'>
+            <motion.div
+            initial={{translateX:-300,opacity:0.5}}
+            whileInView={{ opacity:1,translateX:0 }}
+            transition={{ duration: 0.5, ease:'easeInOut' }}
+            className=' footer_1 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12  z-10'>
                     <Link href="/" className='footer_logo'>
                         <Image src={f0}
                         width={120}
@@ -61,8 +63,13 @@ const Footer = () => {
                     </div>
 
 
-            </div>
-            <div className='footer_2 col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-12 z-10'>
+            </motion.div>
+            <motion.div 
+            initial={{translateX:-300,opacity:0.5}}
+            whileInView={{ opacity:1,translateX:0 }}
+            transition={{ duration: 0.8, ease:'easeInOut' }}
+            
+            className='footer_2 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12 z-10'>
                 <div className='link_footer '>
                         <h1 className='link_footer_h1'>Legături rapide</h1>
                         <ul className='link_footer_ul'>
@@ -72,21 +79,12 @@ const Footer = () => {
                               <li><Link href=''>contect</Link> </li> 
                         </ul>
                 </div>
-            </div>
-            <div className='footer_3 col-span-12 lg:col-span-3 md:col-span-6 sm:col-span-12 z-10'>
-                <div className='opening_footer'>
-                        <h1 className='opening_footer_h1'>Ore de deschidere</h1>
-                        <ul className='opening_footer_ul'>
-                              <li> <p>Monday</p> <span>10:00 - 20:00</span></li>
-                              <li> <p>Tuesday</p> <span>10:00 - 20:00</span></li>
-                              <li> <p>Wednesday</p> <span>10:00 - 20:00</span></li>
-                              <li> <p>Friday</p> <span>10:00 - 20:00</span></li> 
-                              <li> <p>Saturday</p> <span>10:00 - 20:00</span></li> 
-                              <li> <p>Sunday</p> <span>10:00 - 20:00</span></li> 
-                        </ul>
-                </div>
-            </div>
-            <div className='footer_3 col-span-12 lg:col-span-2 md:col-span-6 sm:col-span-12 z-10'>
+            </motion.div>
+            <motion.div
+            initial={{translateX:-300,opacity:0.5}}
+            whileInView={{ opacity:1,translateX:0 }}
+            transition={{ duration: 1, ease:'easeInOut' }}
+            className='footer_3 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12 z-10'>
                 <div className='instgram_footer'>
                         <h1 className='instgram_footer_h1'>Fotografie</h1>
                         <div className='instgram_footer-img grid grid-cols-3'>
@@ -99,8 +97,8 @@ const Footer = () => {
                             
                         </div>
                 </div>
-            </div>
             </motion.div>
+            </div>
     </div>
   )
 }
