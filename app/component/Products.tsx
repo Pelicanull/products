@@ -4,10 +4,10 @@ import React from 'react'
 import SectionName from './sectionName'
 import Image from 'next/image'
 // import f1 from '../Image/secion-shape-1.png'
-import f1 from '../Image/pelcanul/1.png'
-import f2 from '../Image/pelcanul/10.png'
+import f1 from '../Image/pelcanul/2.png'
+import f2 from '../Image/pelcanul/3.png'
 import f3 from '../Image/sham_food/1.png'
-import f4 from '../Image/sham_food/10.png'
+import f4 from '../Image/sham_food/2.png'
 import { motion } from 'framer-motion'
 const Products = () => {
 
@@ -42,7 +42,7 @@ const Products = () => {
                   </div>
                   <div className='product_text'>
                     <h3 className='text-yellow-500'>Pelicanul food</h3>
-                    <h1>TON INTREG ULEI VEGETAL</h1>
+                    <h1>TON INTREG  ULEI VEGETAL</h1>
                     <p className='text-yellow-500'>160 GR</p>
                   </div>
                 </motion.div>
@@ -63,7 +63,7 @@ const Products = () => {
                     transition={{ duration: 2, ease:'easeInOut' }}
                   className='product_text'>
                     <h3 className='text-yellow-500'>Pelicanul food</h3>
-                    <h1>TON INTREG ULEI VEGETAL</h1>
+                    <h1>TON INTREG IN SOS TOMAT</h1>
                     <p className='text-yellow-500'>160 GR</p>
                   </motion.div>
                 </motion.div>
@@ -81,8 +81,8 @@ const Products = () => {
                   </div>
                   <div className='product_text'>
                     <h3 className='text-red-700'>Sham food</h3>
-                    <h1>TON INTREG ULEI VEGETAL</h1>
-                    <p className='text-red-700'>160 GR</p>
+                    <h1>SARDINES SOS TOMATO</h1>
+                    <p className='text-red-700'>215 GR</p>
                   </div>
                 </motion.div>
                 <motion.div
@@ -99,8 +99,8 @@ const Products = () => {
                   </div>
                   <div className=' product_text'>
                     <h3 className='text-red-700'>Sham food</h3>
-                    <h1>TON INTREG ULEI VEGETAL</h1>
-                    <p className='text-red-700'>160 GR</p>
+                    <h1>SARDINES  ULEI VEGETAL</h1>
+                    <p className='text-red-700'>215 GR</p>
                   </div>
                 </motion.div>
         </div>
