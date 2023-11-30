@@ -15,7 +15,7 @@ const Contact = () => {
              whileInView={{ opacity:1,translateX:0 }}
              transition={{ duration: 0.5, ease:'easeInOut' }}
         className='sectionName'>
-            <h1 className='sectionName_h1'>a lua legatura</h1>
+            <h1 className='sectionName_h1'>Contactați-ne</h1>
         </motion.div>
       <div className='contact_social grid grid-cols-6'>
           <div className='col-span-2 md:col-span-1 contect_home'>

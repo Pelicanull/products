@@ -32,27 +32,16 @@ import f25 from '../Image/pelcanul/Sham Food_028.png'
 import { motion } from 'framer-motion'
 const page = () => {
   const p_roduct=[
-      {id:1, name:"Pelicanul food",descrption:"SALATA DE TON IN SOS MEXICAN",weght:"160 GR",img:f1},
-      {id:2, name:"Pelicanul food",descrption:"TON INTREG IN ULEI VEGETAL",weght:"160 GR",img:f2},
+      {id:1, name:"Pelicanul food",descrption:"TON INTREG 3/SET ",weght:"3*80 GR",img:f1},
+      {id:2, name:"Pelicanul food",descrption:"TON INTREG  ULEI VEGETAL",weght:" GR",img:f2},
       {id:3, name:"Pelicanul food",descrption:"TON INTREG IN SOS TOMAT",weght:"160 GR",img:f3},
-      {id:4, name:"Pelicanul food",descrption:"TON INTREG IN ULEI VEGETAL WITH CHILI",weght:"160 GR",img:f4},
-      {id:5, name:"Pelicanul food",descrption:"TON INTREG IN SOS PROPRIU",weght:"160 GR",img:f5},
-      {id:6, name:"Pelicanul food",descrption:"TON INTREG AFUMAT IN ULEI VEGETAL",weght:"160 GR",img:f6},
-      {id:7, name:"Pelicanul food",descrption:"TON MARUNTIT IN ULEI VEGETAL",weght:"160 GR",img:f7},
-      {id:8, name:"Pelicanul food",descrption:"TON INTREG IN ULEI VEGETAL",weght:"160 GR",img:f8},
-      {id:9, name:"Pelicanul food",descrption:"TON INTREG IN SOS PROPRIU",weght:"160 GR",img:f9},
-      {id:10,name:"Pelicanul food",descrption:"TON INTREG IN ULEI VEGETAL WITH CHILI",weght:"160 GR",img:f10},
-      {id:11,name:"Pelicanul food",descrption:"TON INTREG IN ULEI VEGETAL WITH CHILI",weght:"160 GR",img:f11},
-      {id:12,name:"Pelicanul food",descrption:"TON INTREG ULEI VEGETAL",weght:"160 GR",img:f12},
-      {id:13,name:"Pelicanul food",descrption:"TON INTREG AFUMAT IN ULEI VEGETAL",weght:"160 GR",img:f13},
-      {id:14,name:"Pelicanul food",descrption:"TON INTREG IN SOS TOMAT",weght:"160 GR",img:f14},
-      {id:15,name:"Pelicanul food",descrption:"SALATA DE TON IN SOS MEXICAN",weght:"160 GR",img:f15},
-      {id:16,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f16},
-      {id:17,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f17},
-      {id:18,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f18},
-      {id:19,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f19},
-      {id:20,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f20},
-      {id:21,name:"Pelicanul food",descrption:"TON PACKAGE",weght:"160 GR",img:f21},
+      {id:4, name:"Pelicanul food",descrption:"TON INTREG MEXICAN",weght:"160 GR",img:f4},
+      {id:5, name:"Pelicanul food",descrption:"MACROU SOS TOMAT",weght:"425 GR",img:f5},
+      {id:6, name:"Pelicanul food",descrption:"TON INTREG IN SUC PROPRIU",weght:"160 GR",img:f6},
+      {id:7, name:"Pelicanul food",descrption:"MACROU ULEI VEGETAL",weght:"425 GR",img:f7},
+      {id:8, name:"Pelicanul food",descrption:"TON MARUNTIT ULEI VEGETAL",weght:"160 GR",img:f8},
+      {id:9, name:"Pelicanul food",descrption:"TON INTREG AFUMAT",weght:"160 GR",img:f9},
+      {id:10,name:"Pelicanul food",descrption:"TON INTREG CHILLI",weght:"160 GR",img:f10},
   ]
   
   let products=p_roduct.map((e)=>{
