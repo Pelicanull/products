@@ -18,88 +18,14 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <div
+    <motion.div
+    initial={{translateX:-300,opacity:0.5}}
+    whileInView={{ opacity:1,translateX:0 }}
+    transition={{ duration: 0.8, ease:'easeInOut' }}
+    
     className='footer overflow-hidden'>
-            <div 
-           
-            className='footer_container  grid grid-cols-12 '>
-            <motion.div
-            initial={{translateX:-300,opacity:0.5}}
-            whileInView={{ opacity:1,translateX:0 }}
-            transition={{ duration: 0.5, ease:'easeInOut' }}
-            className=' footer_1 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12  z-10'>
-                    <Link href="/" className='footer_logo'>
-                        <Image src={f0}
-                        width={120}
-                        height={120}
-                        alt=''>
-                        </Image>
-                        <h1 >Pelcanul</h1>
-                    </Link>
-                    <p className='footer_text'>
-                    picioarele noastre sunt pe pământ, dar ambițiile noastre sunt de deasupra norilor și iată cum ne mișcăm pentru a ne satisface clienții
-                    </p>
-                    <div className='footer_social'>
-                            <div className='footer_email'>
-                                <a href='mailto:pelicanul.food@gmail.com ' className='grid grid-cols-2 gap-0'>
-                                        <MdEmail ></MdEmail>
-                                        <p className='-mt-1'>Pelcanul.food@gmail.com</p>
-                                </a>
-                            </div>
-                            <div className='footer_whatsup'>
-                                <a href='http://wa.me/+40(731)183674' className='grid grid-cols-2 gap-0'>
-                                        
-                                        <MdWhatsapp></MdWhatsapp>
-                                        <p className='-mt-1'>+40(731)183674</p>
-                                        
-                                </a>
-                            </div>
-                            <div className='footer_contect'>
-                                <a href='https://instagram.com/pelicanul.food?igshid=M2RkZGJiMzhjOQ=='><IoLogoInstagram></IoLogoInstagram></a>
-                                <a href=''><CiFacebook></CiFacebook></a>
-                                <a href='https://www.tiktok.com/@pelicanul.food?_t=8hWSlooczyr&_r=1'><BsTiktok></BsTiktok></a>
-                            </div>
-                            <div></div>
-                    </div>
-
-
-            </motion.div>
-            <motion.div 
-            initial={{translateX:-300,opacity:0.5}}
-            whileInView={{ opacity:1,translateX:0 }}
-            transition={{ duration: 0.8, ease:'easeInOut' }}
-            
-            className='footer_2 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12 z-10'>
-                <div className='link_footer '>
-                        <h1 className='link_footer_h1'>Legături rapide</h1>
-                        <ul className='link_footer_ul'>
-                              <li><Link href=''>Home</Link>  </li>
-                              <li><Link href=''>About Us</Link>  </li>
-                              <li><Link href=''>Our Products</Link>  </li>
-                              <li><Link href=''>contect</Link> </li> 
-                        </ul>
-                </div>
-            </motion.div>
-            <motion.div
-            initial={{translateX:-300,opacity:0.5}}
-            whileInView={{ opacity:1,translateX:0 }}
-            transition={{ duration: 1, ease:'easeInOut' }}
-            className='footer_3 col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12 z-10'>
-                <div className='instgram_footer'>
-                        <h1 className='instgram_footer_h1'>Fotografie</h1>
-                        <div className='instgram_footer-img grid grid-cols-3'>
-                            <Image src={f1} alt="" width={100} height={1000} className='m-2'></Image>
-                            <Image src={f2} alt="" width={100} height={100} className='m-2'></Image>
-                            <Image src={f3} alt="" width={100} height={100} className='m-2'></Image>
-                            <Image src={f4} alt="" width={100} height={100} className='m-2'></Image>
-                            <Image src={f5} alt="" width={100} height={100} className='m-2'></Image>
-                            <Image src={f6} alt="" width={100} height={100} className='m-2'></Image>
-                            
-                        </div>
-                </div>
-            </motion.div>
-            </div>
-    </div>
+       CopyRight © 2023 ,All Right Reseverd By <span className='text-red-700'>Mgs media</span> 
+    </motion.div>
   )
 }
 
