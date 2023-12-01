@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import f1 from '../Image/about/1.jpg'
+import f1 from '../Image/photo_٢٠٢٣-١٢-٠١_١٠-٤٨-٥٥.jpg'
 import { motion,AnimatePresence,useScroll } from 'framer-motion'
 const About = () => {
   const { scrollYProgress } = useScroll();

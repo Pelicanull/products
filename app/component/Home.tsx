@@ -14,14 +14,11 @@ const Home = () => {
       className='sectionHome '>
       <div 
       className='home'>
-          <div className='textHome'>
+          {/* <div className='textHome'>
               <h1 className='textHome_h1 ' ><span className='textHome_span'>{text}</span><br></br>Nu-l găsești nicăieri?<br>
               </br> Îl vei găsi aici!</h1>
-          </div>
-          <div className='searchText'>
-                {/* <input type='search' placeholder='Search'></input>
-                <button ><CiSearch></CiSearch></button> */}
-          </div>
+          </div> */}
+       
       </div>
     </motion.div>
     </AnimatePresence>
