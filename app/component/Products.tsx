@@ -16,7 +16,7 @@ const Products = () => {
         <motion.div 
              initial={{translateX:-300,opacity:0.5}}
              whileInView={{ opacity:1,translateX:0 }}
-             transition={{ duration: 0.5, ease:'easeInOut' }}
+             transition={{ duration: 1, ease:'easeInOut' }}
         className='sectionName'>
             <h1 className='sectionName_h1'>Produsele noastre</h1>
         </motion.div>

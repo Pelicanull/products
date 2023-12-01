@@ -17,24 +17,30 @@ const About = () => {
       <motion.div 
       initial={{translateX:-300,opacity:0.5}}
       whileInView={{ opacity:1,translateX:0 }}
-      transition={{ duration: 0.5, ease:'easeInOut' }}
+      transition={{ duration: 1, ease:'easeInOut' }}
       className='sectionName'>
             <h1 className='sectionName_h1'>Despre noi</h1>
       </motion.div>
-      <motion.div 
-      initial={{translateX:-300,opacity:0.5}}
-      whileInView={{ opacity:1,translateX:0 }}
-      transition={{ duration: 0.5, ease:'easeInOut' }}
-      className='about grid grid-cols-8 '>
-          <div className='about_text  col-span-2'>
-                bun venit in compania noastra
-          </div>
-          <div className='about_img col-span-6'>
+      <div 
+      className='about  '>
+        <motion.div
+        initial={{translateX:-300,opacity:0.5}}
+        whileInView={{ opacity:1,translateX:0 }}
+        transition={{ duration: 1, ease:'easeInOut' }}
+        className='about_img '>
             <Image src={f1} alt="" >
 
             </Image>
-          </div>
-      </motion.div>
+          </motion.div>
+          <motion.div
+          initial={{translateX:-300,opacity:0.5}}
+          whileInView={{ opacity:1,translateX:0 }}
+          transition={{ duration: 0.5, ease:'easeInOut' }}
+          className='about_text text-center '>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestias, aperiam natus, doloremque maiores explicabo officia ipsam ut excepturi neque debitis. Modi, enim non mollitia iure fuga rerum dicta ut.
+          </motion.div>
+          
+      </div>
     </motion.div>
 
   )
