@@ -37,7 +37,7 @@ const About = () => {
           whileInView={{ opacity:1,translateX:0 }}
           transition={{ duration: 0.5, ease:'easeInOut' }}
           className='about_text text-center '>
-             . ...... ........................ ..........................................................
+             . ...... ........................ 
           </motion.div>
           
       </div>
