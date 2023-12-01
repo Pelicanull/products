@@ -37,7 +37,7 @@ const About = () => {
           whileInView={{ opacity:1,translateX:0 }}
           transition={{ duration: 0.5, ease:'easeInOut' }}
           className='about_text text-center '>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestias, aperiam natus, doloremque maiores explicabo officia ipsam ut excepturi neque debitis. Modi, enim non mollitia iure fuga rerum dicta ut.
+             .........................................................................................
           </motion.div>
           
       </div>
