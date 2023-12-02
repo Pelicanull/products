@@ -148,7 +148,7 @@ box-shadow: 0 0 5px black;
 /* About us */
 .aboutUs{
   position: relative;
-  height: 80vh;
+  height: 100vh;
   top: 0px;
   bottom: 0;
   width: 90%;
@@ -164,28 +164,23 @@ box-shadow: 0 0 5px black;
 .about_text{
   margin: auto;
   font-family: monospace;
-  font-size: 30px;
+  font-size: 20px;
   height: auto;
-  width: 50%;
+  width: 80%;
   color: #901814a9;
   position: relative;
+  text-align: start;
 }
 .about_img{
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 .about_img img{
   margin: auto;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
-@media (max-width:1080px){
-  .about_text{
-    font-size: 20px;
-    width: 100;
-  }
- 
-}
+
 @media (max-width:940px){
   .about{
     flex-direction: column;
@@ -326,6 +321,11 @@ font-style: italic;
   bottom: 10px;
   right: 10px;
 }
+@media (max-width:1080px){
+  .products{
+    margin-top: 0;
+  }
+}
 @media (max-width:1020px){
   .products .prandType{
     width: 40%;
@@ -333,6 +333,11 @@ font-style: italic;
   .products{
     height: auto;
     margin-bottom: 40px;
+  }
+}
+@media (max-width:940px){
+  .products{
+    margin-top: 150px;
   }
 }
 @media(max-width:800px){
@@ -344,6 +349,9 @@ font-style: italic;
 @media(max-width:630px){
   .products .prandType{
     width: 70%;
+  }
+  .products{
+    margin-top: 200px;
   }
 }
 @media(max-width:480px){

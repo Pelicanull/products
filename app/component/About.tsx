@@ -19,7 +19,7 @@ const About = () => {
       whileInView={{ opacity:1,translateX:0 }}
       transition={{ duration: 1, ease:'easeInOut' }}
       className='sectionName'>
-            <h1 className='sectionName_h1'>..........</h1>
+            <h1 className='sectionName_h1'>Despre noi</h1>
       </motion.div>
       <div 
       className='about  '>
