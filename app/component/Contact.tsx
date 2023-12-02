@@ -36,7 +36,7 @@ const Contact = () => {
               <h3>whatsapp</h3>
           </div>
           <div className='col-span-2 md:col-span-1  contect_face'>
-              <div className='contect_page'><a href=''><CiFacebook></CiFacebook></a></div>
+              <div className='contect_page'><a href='https://www.facebook.com/profile.php?id=100082261700735'><CiFacebook></CiFacebook></a></div>
               <h3>Facebook</h3>
 
           </div>
